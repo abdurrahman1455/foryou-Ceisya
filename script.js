@@ -3,7 +3,7 @@ $(document).ready(function () {
     .mouseenter(function () {
       $(".card").stop().animate(
         {
-          top: "-90px",
+          top: "-160px",
         },
         "slow"
       );
@@ -17,3 +17,8 @@ $(document).ready(function () {
       );
     });
 });
+
+function myFunction() {
+  let rahasia =  document.getElementById("hidden-secret") 
+  rahasia.style.display = "block";
+}
