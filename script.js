@@ -3,7 +3,7 @@ $(document).ready(function () {
     .mouseenter(function () {
       $(".card").stop().animate(
         {
-          top: "-160px",
+          top: "-145px",
         },
         "slow"
       );
@@ -20,5 +20,6 @@ $(document).ready(function () {
 
 function myFunction() {
   let rahasia =  document.getElementById("hidden-secret") 
+  // rahasia.style.transition = "2s";
   rahasia.style.display = "block";
 }
