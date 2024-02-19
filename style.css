@@ -5,6 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #fae1dd;
+  margin: 0;
 }
 
 .container {
@@ -252,6 +253,8 @@ body {
       bottom: 0;
       left: 0;
     background-color: #f8d1e0;
+  height: 100%;
+  width: 100%;
 }
 
 
